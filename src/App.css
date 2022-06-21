@@ -1,4 +1,8 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
+  height: auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }

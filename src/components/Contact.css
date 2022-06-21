@@ -1,0 +1,34 @@
+.card {
+  background-color: coral;
+  width: 300px;
+  height: auto;
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.gambar {
+  flex-basis: 20%;
+}
+.teks {
+  flex-basis: 80%;
+  align-self: center;
+}
+
+.image {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+  padding: 5px;
+}
+
+.phone {
+  padding: 5px;
+}
+.email {
+  padding: 5px;
+}

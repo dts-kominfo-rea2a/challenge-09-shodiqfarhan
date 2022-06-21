@@ -1,0 +1,7 @@
+.border {
+  border-bottom-style: dotted;
+  border-bottom-width: 5px;
+  border-color: brown;
+  margin-bottom: 5px;
+  width: 500px;
+}
