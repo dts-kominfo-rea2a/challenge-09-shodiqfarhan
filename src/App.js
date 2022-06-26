@@ -13,12 +13,12 @@ const App = () => {
         <Header text="Call a Friend" subjudul="your friendly contact app" />
       </header>
       <section>
-        <Contact name={contacts[0].name} phone={contacts[0].phone} email={contacts[0].email} photo={contacts[0].photo} />
-        <Contact name={contacts[1].name} phone={contacts[1].phone} email={contacts[1].email} photo={contacts[1].photo} />
-        <Contact name={contacts[2].name} phone={contacts[2].phone} email={contacts[2].email} photo={contacts[2].photo} />
-        <Contact name={contacts[3].name} phone={contacts[3].phone} email={contacts[3].email} photo={contacts[3].photo} />
-        <Contact name={contacts[4].name} phone={contacts[4].phone} email={contacts[4].email} photo={contacts[4].photo} />
-        <Contact name={contacts[5].name} phone={contacts[5].phone} email={contacts[5].email} photo={contacts[5].photo} />
+        <Contact name={contacts[0]} phone={contacts[0]} email={contacts[0]} photo={contacts[0]} />
+        <Contact name={contacts[1]} phone={contacts[1]} email={contacts[1]} photo={contacts[1]} />
+        <Contact name={contacts[2]} phone={contacts[2]} email={contacts[2]} photo={contacts[2]} />
+        <Contact name={contacts[3]} phone={contacts[3]} email={contacts[3]} photo={contacts[3]} />
+        <Contact name={contacts[4]} phone={contacts[4]} email={contacts[4]} photo={contacts[4]} />
+        <Contact name={contacts[5]} phone={contacts[5]} email={contacts[5]} photo={contacts[5]} />
       </section>
     </div>
   );
