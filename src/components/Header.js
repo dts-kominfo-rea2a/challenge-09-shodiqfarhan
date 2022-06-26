@@ -2,11 +2,11 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="border">
-      <h1>Call a Friend</h1>
-      <p>your friendly contact app</p>
+      <h1>{props.text}</h1>
+      <p>{props.subjudul}</p>
     </div>
   );
 };
