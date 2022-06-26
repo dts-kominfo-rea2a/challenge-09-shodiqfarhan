@@ -6,9 +6,7 @@ import "./Contact.css";
 const Contact = (props) => {
   return (
     <div className="card">
-      <div className="gambar">
-        <img className="image" src={props.photo.photo} alt="Sebuah gambar"></img>
-      </div>
+      <img className="image" src={props.photo.photo} alt="Sebuah gambar"></img>
       <div className="teks">
         <p className="name">{props.name.name}</p>
         <p className="phone">{props.phone.phone}</p>
