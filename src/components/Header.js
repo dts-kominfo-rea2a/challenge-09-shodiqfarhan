@@ -4,10 +4,10 @@ import "./Header.css";
 
 const Header = (props) => {
   return (
-    <div className="border">
-      <h1>{props.text}</h1>
-      <p>{props.subjudul}</p>
-    </div>
+    <>
+      <h1>{props.title}</h1>
+      <h4 className="border">{props.subtitle}</h4>
+    </>
   );
 };
 
