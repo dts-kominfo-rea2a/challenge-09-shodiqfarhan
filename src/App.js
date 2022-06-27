@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <header>
-        <Header title="Call a Friend" subtitle="your friendly contact app" />
+        <Header />
       </header>
       <Contact name={contacts[0]} phone={contacts[0]} email={contacts[0]} photo={contacts[0]} />
       <Contact name={contacts[1]} phone={contacts[1]} email={contacts[1]} photo={contacts[1]} />
